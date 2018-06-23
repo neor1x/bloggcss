@@ -18670,7 +18670,7 @@
                     }))), b.default.createElement("div", {
                         className: "post-watched"
                     })), n && n.length > 0 && b.default.createElement(E.default, {
-                        header: ["\u0410\u043d\u0433\u0438\u0439\u043d \u0436\u0430\u0433\u0441\u0430\u0430\u043b\u0442"],
+                        header: ["\u0411\u0443\u0441\u0430\u0434 \u0430\u043D\u0433\u0438 :"],
                         content: [this.renderEpisodes()]
                     }))))
                 }
@@ -18843,7 +18843,7 @@
                 }, v.default.createElement(g.Loader, {
                     type: "line-scale",
                     active: !0
-                }), "\u0423\u043d\u0448\u0438\u0436 \u0431\u0430\u0439\u043d\u0430 ...")
+                }), "\u0422\u04AF\u0440 \u0445\u04AF\u043B\u044D\u044D\u043D\u044D \u04AF\u04AF ...")
             }
         }]), t
     }(h.Component);
