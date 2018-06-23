@@ -16879,7 +16879,7 @@
                         swipeToSlide: !0,
                         speed: 500,
                         slidesToShow: 6,
-                        slidesToScroll: 1,
+                        slidesToScroll: 6,
                         initialSlide: 0,
                         responsive: [{
                             breakpoint: 1024,
@@ -16907,7 +16907,7 @@
                     className: "comp-anime-list"
                 }, t && y.default.createElement("div", {
                     className: "list-title"
-                }, v.default.createElement(y.default.three-bars.toSVG()), "\u0410\u043D\u0438\u043C\u044D"), y.default.createElement(k.default, i, t.map(function(e, t) {
+                }, "\u0410\u043D\u0438\u043C\u044D"), y.default.createElement(k.default, i, t.map(function(e, t) {
                     var n = e.content,
                         r = e.nextPageToken,
                         o = e.label;
