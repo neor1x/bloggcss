@@ -16907,7 +16907,7 @@
                     className: "comp-anime-list"
                 }, t && y.default.createElement("div", {
                     className: "list-title"
-                }, v.default.createElement("this.renderIcon(y.default.three-bars.toSVG())"), "\u0410\u043D\u0438\u043C\u044D"), y.default.createElement(k.default, i, t.map(function(e, t) {
+                }, "\u0410\u043D\u0438\u043C\u044D"), y.default.createElement(k.default, i, t.map(function(e, t) {
                     var n = e.content,
                         r = e.nextPageToken,
                         o = e.label;
@@ -16923,7 +16923,7 @@
                     className: "gap"
                 }), n && y.default.createElement("div", {
                     className: "list-title"
-                }, v.default.createElement("this.renderIcon(y.default.device-desktop.toSVG())"), "\u0410\u043D\u0438\u043C\u044D \u043A\u0438\u043D\u043E \u0431\u043E\u043B\u043E\u043D \u041E\u0432\u0430"), y.default.createElement(k.default, i, n && n.contents.map(function(e, t) {
+                }, "\u0410\u043D\u0438\u043C\u044D \u043A\u0438\u043D\u043E \u0431\u043E\u043B\u043E\u043D \u041E\u0432\u0430"), y.default.createElement(k.default, i, n && n.contents.map(function(e, t) {
                     return y.default.createElement("div", {
                         className: "col-xs-6 col-sm-3 col-md-2",
                         key: "anime-movie-" + t
@@ -16943,7 +16943,7 @@
                     className: "gap"
                 }), o && y.default.createElement("div", {
                     className: "list-title"
-                }, v.default.createElement("this.renderIcon(y.default.flame.toSVG())"), "\u0422\u0443\u043d \u0443\u0434\u0430\u0445\u0433\u04af\u0439"), o && this.renderCountDown(o))
+                }, "\u0422\u0443\u043d \u0443\u0434\u0430\u0445\u0433\u04af\u0439"), o && this.renderCountDown(o))
             }
         }]), t
     }(m.Component)) || i) || i;
