@@ -16645,7 +16645,7 @@
                         component: w.default
                     }, e)), y.default.createElement(g.Route, (0, i.default)({
                         exact: !0,
-                        path: "/watch/:id",
+                        path: "/anime/:id",
                         component: T.default
                     }, e)), y.default.createElement(g.Route, (0, i.default)({
                         exact: !0,
@@ -18176,7 +18176,7 @@
                         key: o + "-ep"
                     }, t && t.map(function(t, n) {
                         return b.default.createElement(w.Link, {                           
-                            to: "/watch/" + t.id,
+                            to: "/anime/" + t.id,
                             key: o + "-ep-" + n
                         }, e.getEpisodeNumber(t.title))
                     }), n.map(function(e, t) {
@@ -18209,7 +18209,7 @@
                     }, b.default.createElement("div", {
                         className: "post-thumbnail"
                     }, t.images && t.images[0] && !n ? b.default.createElement(w.Link, {
-                        to: "/watch/" + t.id
+                        to: "/anime/" + t.id
                     }, b.default.createElement("img", {
                         src: "" + t.images[0].url,
                         alt: ""
@@ -18617,7 +18617,7 @@
                             key: t.id
                         }, b.default.createElement(k.Link, {
                             onClick: e.forceUpdate,
-                            to: "/watch/" + t.id
+                            to: "/anime/" + t.id
                         }, e.getEpisodeNumber(t.title)))
                     }))
                 }
