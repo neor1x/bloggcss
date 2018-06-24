@@ -16907,8 +16907,6 @@
                     className: "comp-anime-list"
                 }, t && y.default.createElement("div", {
                     className: "list-title"
-                },  v.default.createElement("span", {
-                    "this.renderIcon(y.default.code.toSVG())"
                 }, "\u0410\u043D\u0438\u043C\u044D"), y.default.createElement(k.default, i, t.map(function(e, t) {
                     var n = e.content,
                         r = e.nextPageToken,
