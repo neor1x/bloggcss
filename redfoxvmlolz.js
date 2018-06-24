@@ -16907,11 +16907,9 @@
                     className: "comp-anime-list"
                 }, t && y.default.createElement("div", {
                     className: "list-title"
-                },  v.default.createElement("p", null, this.renderIcon(y.default.code.toSVG()), " with", " ", this.renderIcon(y.default.heart.toSVG()), " by", " ", v.default.createElement("a", {
-                        href: "https://facebook.com/rinkato.tekari",
-                        target: "_blank",
-                        rel: "noopener noreferrer"
-                    }, "\u0410\u043D\u0438\u043C\u044D"), y.default.createElement(k.default, i, t.map(function(e, t) {
+                },  v.default.createElement("span", {
+                    "this.renderIcon(y.default.code.toSVG())"
+                }, "\u0410\u043D\u0438\u043C\u044D"), y.default.createElement(k.default, i, t.map(function(e, t) {
                     var n = e.content,
                         r = e.nextPageToken,
                         o = e.label;
