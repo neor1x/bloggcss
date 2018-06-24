@@ -5808,7 +5808,7 @@
             className: "",
             accessibility: !0,
             adaptiveHeight: !1,
-            arrows: !0,
+            arrows: !1,
             autoplay: !1,
             autoplaySpeed: 3e3,
             centerMode: !1,
