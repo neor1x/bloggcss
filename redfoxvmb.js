@@ -5808,7 +5808,7 @@
             className: "",
             accessibility: !0,
             adaptiveHeight: !1,
-            arrows: !1,
+            arrows: !true,
             autoplay: !1,
             autoplaySpeed: 3e3,
             centerMode: !1,
@@ -5847,8 +5847,8 @@
             edgeEvent: null,
             init: null,
             swipeEvent: null,
-            nextArrow: null,
-            prevArrow: null
+            nextArrow: <button type="button" class="slick-next">Next</button>,
+            prevArrow: <button type="button" class="slick-prev">Previous</button>
         };
     e.exports = i
 }, function(e, t) {
