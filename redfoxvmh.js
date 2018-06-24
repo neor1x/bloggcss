@@ -16638,7 +16638,8 @@
             return (0, v.default)(t, e), (0, f.default)(t, [{
                 key: "render",
                 value: function() {
-                    var e = this.props;
+                    var e = this.props,
+                        id = id.slice(1, 5);
                     return y.default.createElement(g.Switch, null, y.default.createElement(g.Route, (0, i.default)({
                         exact: !0,
                         path: "/",
