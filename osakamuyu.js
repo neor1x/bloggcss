@@ -5822,7 +5822,7 @@
             draggable: !0,
             easing: "linear",
             edgeFriction: .35,
-            fade: !1,
+            fade: !0,
             focusOnSelect: !1,
             infinite: !0,
             initialSlide: 0,
@@ -16879,8 +16879,8 @@
                         swipeToSlide: !0,
                         speed: 500,
                         slidesToShow: 6,
-                        slidesToScroll: 4,
-                        initialSlide: !0,
+                        slidesToScroll: 1,
+                        initialSlide: 0,
                         responsive: [{
                             breakpoint: 1024,
                             settings: {
