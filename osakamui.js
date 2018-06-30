@@ -5808,7 +5808,7 @@
             className: "",
             accessibility: !0,
             adaptiveHeight: !1,
-            arrows: !0,
+            arrows: !1,
             autoplay: !1,
             autoplaySpeed: 3e3,
             centerMode: !1,
@@ -16822,7 +16822,7 @@
                 var t = {
                     dots: !0,
                     infinite: !1,
-                    arrows: !0,
+                    arrows: !1,
                     autoplay: !0,
                     swipeToSlide: !0,
                     speed: 500,
@@ -16874,7 +16874,7 @@
                     i = {
                         dots: !0,
                         infinite: !1,
-                        arrows: !0,
+                        arrows: !1,
                         autoplay: !1,
                         swipeToSlide: !0,
                         speed: 500,
