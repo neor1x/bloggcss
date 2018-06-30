@@ -16878,9 +16878,9 @@
                         autoplay: !1,
                         swipeToSlide: !0,
                         speed: 500,
-                        slidesToShow: 2,
+                        slidesToShow: 6,
                         slidesToScroll: 6,
-                        initialSlide: 0,
+                        initialSlide: 1,
                         responsive: [{
                             breakpoint: 1024,
                             settings: {
