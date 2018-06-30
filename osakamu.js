@@ -16822,7 +16822,7 @@
                 var t = {
                     dots: !0,
                     infinite: !1,
-                    arrows: !1,
+                    arrows: !0,
                     autoplay: !0,
                     swipeToSlide: !0,
                     speed: 500,
@@ -16874,11 +16874,11 @@
                     i = {
                         dots: !0,
                         infinite: !1,
-                        arrows: !1,
+                        arrows: !0,
                         autoplay: !1,
                         swipeToSlide: !0,
                         speed: 500,
-                        slidesToShow: 6,
+                        slidesToShow: 2,
                         slidesToScroll: 6,
                         initialSlide: 0,
                         responsive: [{
