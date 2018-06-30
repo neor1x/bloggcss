@@ -18665,7 +18665,7 @@
                         return b.default.createElement("a", {
                             href: e.url,
                             target: "_blank",
-                            className: "btn-gra g-" + (t + 1)
+                            className: "waves-effect waves-light btn-gra g-" + (t + 1)
                         }, e.name)
                     }))), b.default.createElement("div", {
                         className: "post-watched"
