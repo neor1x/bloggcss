@@ -18207,7 +18207,7 @@
                         className: "post " + (n && "has-countdown"),
                         key: "anime-" + t.id
                     }, b.default.createElement("div", {
-                        className: "post-thumbnail waves-effect waves-light"
+                        className: "post-thumbnail waves-effect waves-custom"
                     }, t.images && t.images[0] && !n ? b.default.createElement(w.Link, {
                         to: "/anime/" + t.id
                     }, b.default.createElement("img", {
