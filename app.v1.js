@@ -14052,7 +14052,7 @@
                     to: "/"
                 }, v.default.createElement("h1", {
                     className: "text-center logo"
-                }, "RedFox", v.default.createElement("sup", null, "BETA V.1"))))))
+                }, "Animeow", v.default.createElement("sup", null, "BETA V.1"))))))
             }
         }]), t
     }(h.Component);
@@ -15509,7 +15509,7 @@
                         className: "row"
                     }, v.default.createElement("div", {
                         className: "col-xs-12 col-sm-6"
-                    }, "RedFox \xa9 2018."), v.default.createElement("div", {
+                    }, "Animeow \xa9 2018."), v.default.createElement("div", {
                         className: "col-xs-12 col-sm-6"
                     }, v.default.createElement("div", {
                         className: "dev"
