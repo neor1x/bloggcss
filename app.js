@@ -18622,6 +18622,9 @@
                     }))
                 }
             }, {
+                key: "renderInformation",
+                value: "dasdadadad"
+            }, {
                 key: "getEpisodeNumber",
                 value: function(e) {
                     for (var t = e.indexOf("-\u0440 \u0430\u043d\u0433\u0438"), n = t;;) {
@@ -18672,7 +18675,12 @@
                     })), n && n.length > 0 && b.default.createElement(E.default, {
                         header: ["\u0411\u0443\u0441\u0430\u0434 \u0430\u043D\u0433\u0438 :"],
                         content: [this.renderEpisodes()]
-                    }))))
+                    })), b.default.createElement("div", {
+                        className: "anime-info"
+                    })), n && n.length > 0 && b.default.createElement(E.default, {
+                        header: ["\u0422\u0430\u043D\u0438\u043B\u0446\u0443\u0443\u043B\u0433\u0430"],
+                        content: [this.renderInformation()]
+                    })))
                 }
             }]), t
         }(g.Component)) || i) || i;
