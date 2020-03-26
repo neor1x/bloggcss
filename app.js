@@ -5817,7 +5817,38 @@
             customPaging: function(e) {
                 return o.default.createElement("button", null, e + 1)
             },
-    settings: unslick,
+            dots: !1,
+            dotsClass: "slick-dots",
+            draggable: !0,
+            easing: "linear",
+            edgeFriction: .35,
+            fade: !1,
+            focusOnSelect: !1,
+            infinite: !0,
+            initialSlide: 0,
+            lazyLoad: !1,
+            pauseOnHover: !0,
+            responsive: null,
+            rtl: !1,
+            slide: "div",
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            speed: 500,
+            swipe: !0,
+            swipeToSlide: !1,
+            touchMove: !0,
+            touchThreshold: 5,
+            useCSS: !0,
+            variableWidth: !1,
+            vertical: !1,
+            waitForAnimate: !0,
+            afterChange: null,
+            beforeChange: null,
+            edgeEvent: null,
+            init: null,
+            swipeEvent: null,
+            nextArrow: null,
+            prevArrow: null
         };
     e.exports = i
 }, function(e, t) {
@@ -18145,7 +18176,7 @@
                         key: o + "-ep"
                     }, t && t.map(function(t, n) {
                         return b.default.createElement(w.Link, {                           
-                            to: "/anime/" + t.id,
+                            to: "/watch/" + t.id,
                             key: o + "-ep-" + n
                         }, e.getEpisodeNumber(t.title))
                     }), n.map(function(e, t) {
@@ -18178,7 +18209,7 @@
                     }, b.default.createElement("div", {
                         className: "post-thumbnail waves-effect waves-custom"
                     }, t.images && t.images[0] && !n ? b.default.createElement(w.Link, {
-                        to: "/anime/" + t.id
+                        to: "/watch/" + t.id
                     }, b.default.createElement("img", {
                         src: "" + t.images[0].url,
                         alt: ""
