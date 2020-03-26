@@ -16614,7 +16614,7 @@
                         component: w.default
                     }, e)), y.default.createElement(g.Route, (0, i.default)({
                         exact: !0,
-                        path: "/anime/:id",
+                        path: "/watch/:id",
                         component: T.default
                     }, e)), y.default.createElement(g.Route, (0, i.default)({
                         exact: !0,
@@ -18586,7 +18586,7 @@
                             key: t.id
                         }, b.default.createElement(k.Link, {
                             onClick: e.forceUpdate,
-                            to: "/anime/" + t.id
+                            to: "/watch/" + t.id
                         }, e.getEpisodeNumber(t.title)))
                     }))
                 }
